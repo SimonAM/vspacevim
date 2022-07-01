@@ -7,16 +7,30 @@ So this is a vim config shaped after a VSCode vimplugin.
 
 
 ## Neovim-from-scratch might be maintained, while this repo is not. So....
+
 git clone this project
+
 git merge https://github.com/LunarVim/Neovim-from-scratch.git
+
 Check the diff thoroughly. 
 
 ## Wish list
 - [ ] nvim-cmp's auto import (always) works when triggered
 - [ ] nvim-cmp shows library in auto-import list
-- [x] Convenient way of diffing head with other branch (:diffview origin/otherbranch)
-- [ ] Convenient way of diffing heads of two branches
+- [x] Convenient way of diffing head with other branch (:DiffviewOpen origin/otherbranch)
+- [ ] Convenient way of diffing heads of two branches, neither currently checked out. 
 - [ ] Conventient way of selecting two commits for diffing
+  - [ ] List branches
+  - [ ] List commits on branch.
+  - [ ] Select commit for diff
+
+
+## Bonus
+- [ ] Org mode
+  - [ ] Agenda view
+  - [ ] Find all todos per project
+  - [ ] Inbox
+- [ ]    
 
 
 # Neovim from scratch
