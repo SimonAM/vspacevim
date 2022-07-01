@@ -1,13 +1,15 @@
 # VisualStudioSpaceVim - fromscratch
-Based on nvimfromscratch, but aims to be as close to vsspacecode as possible. 
-That is, a visual studio code plugin that aims to be as close to spacemacs as possible.
+Based on [nvimfromscratch](https://github.com/LunarVim/Neovim-from-scratch), but aims to be as close to [VSSpaceCode](https://vspacecode.github.io/) as possible. 
+Which is a visual studio code plugin that aims to be as close to [spacemacs](https://www.spacemacs.org/) as possible.
 That is, emacs implementing vim.
-So this is a vim config shaped after a vscode vimplugin.
+
+So this is a vim config shaped after a VSCode vimplugin.
 
 
-## You'll have to update manually
+## Neovim-from-scratch might be maintained, while this repo is not. So....
 git clone this project
 git merge https://github.com/LunarVim/Neovim-from-scratch.git
+Check the diff thoroughly. 
 
 ## Wish list
 - [ ] nvim-cmp's auto import (always) works when triggered
